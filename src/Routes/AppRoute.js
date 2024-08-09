@@ -6,7 +6,7 @@ import About from '../Component/Header/About/About';
 import Signup from '../Pages/Signup/Signup';
 import Register from '../Pages/Register/Register';
 import Cart from '../Component/Header/Cart/Cart';
-import ProductDetail from '../Component/Header/ProductDetail/ProductDetail'; // Add this import
+import ProductDetail from '../Component/Header/ProductDetail/ProductDetail';
 
 const AppRoute = () => (
   <RouterRoutes>
@@ -16,7 +16,7 @@ const AppRoute = () => (
     <Route path="/signup" element={<Signup />} />
     <Route path="/register" element={<Register />} />
     <Route path="/cart" element={<Cart />} />
-    <Route path="/product/:id" element={<ProductDetail />} /> {/* Add this route */}
+    <Route path="/product/:id" element={<ProductDetail />} /> { }
   </RouterRoutes>
 );
 

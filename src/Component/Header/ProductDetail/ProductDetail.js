@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { API_ENDPOINTS } from '../../../config'; // Adjust the path as needed
-import './ProductDetail.css'; // Create this CSS file for styling
+import { API_ENDPOINTS } from '../../../config'; 
+import './ProductDetail.css'; 
 
 const ProductDetail = () => {
   const { id } = useParams();
