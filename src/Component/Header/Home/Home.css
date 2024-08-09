@@ -1,0 +1,121 @@
+.home {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-height: 100vh; /* Ensures the home container fits within the viewport */
+  box-sizing: border-box; /* Includes padding in the height calculation */
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+}
+
+/* Dropdown Styles */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.dropdown-button:hover {
+  background-color: #fa6520;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 4px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropdown-button {
+  background-color: #0056b3;
+}
+
+/* Product List Styles */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 20px;
+  overflow-y: auto; /* Enables scrolling for product list */
+ 
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 18px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.product-card p {
+  color: #333;
+  font-size: 14px;
+  margin: 0;
+}
+
+
+
+.product-card a {
+  color: black; /* Set the link color to black */
+  text-decoration: none; /* Remove the underline */
+}
+
+.product-card a:hover {
+  color: #333; /* Optional: Darken the color on hover */
+}
+
+.product-card h3,
+.product-card p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.product-card h3 a,
+.product-card p a {
+  color: inherit; /* Inherit color from parent (black) */
+  text-decoration: none; /* Remove underline */
+}
