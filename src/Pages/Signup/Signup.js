@@ -10,7 +10,7 @@ const Signup = () => {
         <img src={side} alt="Signup Illustration" />
       </div>
       <div className="login-container">
-        <h1>Create an Account for Ecommerce website</h1>
+        <h1>Create an Account</h1>
         <h2>Enter your details here</h2>
         <form>
           <input type="email" placeholder="Enter your email" required />
