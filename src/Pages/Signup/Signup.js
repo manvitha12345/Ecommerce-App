@@ -11,7 +11,7 @@ const Signup = () => {
       </div>
       <div className="login-container">
         <h1>Create an Account</h1>
-        <h2>Enter your details here</h2>
+        <h2>Enter your details here.</h2>
         <form>
           <input type="email" placeholder="Enter your email" required />
           <input type="password" placeholder="Enter your password" required />
